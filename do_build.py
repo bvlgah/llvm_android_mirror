@@ -680,6 +680,7 @@ def package_toolchain(toolchain_builder: LLVMBuilder,
                         srcs = glob([
                             "bin/*",
                             "lib/*",
+                            "lib/x86_64-unknown-linux-gnu/*",
                         ]),
                     )
 
@@ -687,6 +688,8 @@ def package_toolchain(toolchain_builder: LLVMBuilder,
                         name = "includes",
                         srcs = glob([
                             "lib/clang/*/include/**",
+                            "include/c++/**",
+                            "include/x86_64-unknown-linux-gnu/c++/**",
                         ]),
                     )
 

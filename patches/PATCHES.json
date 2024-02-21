@@ -716,6 +716,20 @@
     {
         "metadata": {
             "info": [],
+            "title": "[UPSTREAM] Fix __isOSVersionAtLeast for Android (#80496)"
+        },
+        "platforms": [
+            "android"
+        ],
+        "rel_patch_path": "cherry/ec516ff3e6122069b36f32a6db8bb3dc672133fc.patch",
+        "version_range": {
+            "from": 522817,
+            "until": 528245
+        }
+    },
+    {
+        "metadata": {
+            "info": [],
             "title": "Add stubs and headers for nl_types APIs."
         },
         "platforms": [

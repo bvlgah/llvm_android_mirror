@@ -576,6 +576,20 @@
     {
         "metadata": {
             "info": [],
+            "title": "[UPSTREAM] [lldb][NFC] Fix compilation issue on windows (#76453)"
+        },
+        "platforms": [
+            "android"
+        ],
+        "rel_patch_path": "cherry/f3f4387e02b0ed637b5d843e8937116334329a65.patch",
+        "version_range": {
+            "from": 522817,
+            "until": 523089
+        }
+    },
+    {
+        "metadata": {
+            "info": [],
             "title": "[UPSTREAM] [lld] [MTE] Allow android note for static executables. (#77078)"
         },
         "platforms": [

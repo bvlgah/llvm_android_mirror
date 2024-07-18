@@ -1139,6 +1139,10 @@ class DeviceLibcxxBuilder(base_builders.LLVMRuntimeBuilder):
         else:
             result.append('-unwindlib=libunwind')
 
+        # The oldest OS that the NDK supports lacked packed relocations, so enable
+        # them for the platform only.
+        if self._config.platform:
+            result.append('-Wl,--pack-dyn-relocs=android+relr')
         if self._is_hwasan:
             result.append('-fsanitize=hwaddress')
 

@@ -1389,6 +1389,34 @@
     {
         "metadata": {
             "info": [],
+            "title": "[UPSTREAM] [Clang][Sema] Fix bug where operator-> typo corrects in the current instantiation (#91972)"
+        },
+        "platforms": [
+            "android"
+        ],
+        "rel_patch_path": "cherry/596a9c1f9b3179b3c77cbde1e96619292ce2a10a.patch",
+        "version_range": {
+            "from": 536225,
+            "until": 536433
+        }
+    },
+    {
+        "metadata": {
+            "info": [],
+            "title": "[UPSTREAM] Revert \"Repply#2 \"[RemoveDIs] Load into new debug info format by default in LLVM (#89799)\"\""
+        },
+        "platforms": [
+            "android"
+        ],
+        "rel_patch_path": "cherry/23f8fac745bdde70ed4f9c585d19c4913734f1b8.patch",
+        "version_range": {
+            "from": 536225,
+            "until": 536488
+        }
+    },
+    {
+        "metadata": {
+            "info": [],
             "title": "[UPSTREAM] [hwasan] Remove memory attrs from instrumented functions. (#92974)"
         },
         "platforms": [

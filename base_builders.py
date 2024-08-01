@@ -753,7 +753,6 @@ class LLVMBuilder(LLVMBaseBuilder):
             defines['LLVM_ENABLE_ZSTD'] = 'FORCE_ON'
             defines['LLVM_USE_STATIC_ZSTD'] = 'ON'
             defines['zstd_LIBRARY'] = self.libzstd.link_libraries[0]
-            defines['zstd_STATIC_LIBRARY'] = self.libzstd.link_libraries[1]
             defines['zstd_INCLUDE_DIR'] = self.libzstd.include_dir
         else:
             defines['LLVM_ENABLE_ZSTD'] = 'OFF'
